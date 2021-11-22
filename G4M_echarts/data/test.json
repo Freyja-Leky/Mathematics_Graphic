@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {"name":"三角関数の積分法",
+      "id":"50105",
+      "group":"integrals",
+      "color":"rgb(223,137,255)",
+      "size":30,
+      "study": 0.5},
+    {"name":"部分積分法",
+      "id":"50102",
+      "group":"integrals",
+      "color":"rgb(223,137,255)",
+      "size":30,
+      "study": 0.1
+    },
+    {"name":"問題",
+      "id":"0",
+      "group":"Question",
+      "color":"rgb(255,255,255)",
+      "size":50,
+      "study": 1}
+  ],
+  "edges": [
+    {"source":"0",
+      "target":"50102",
+      "id":"22"
+    },
+    {"source":"0",
+      "target":"50105",
+      "id":"23"
+    }
+  ]
+}
