@@ -8,7 +8,7 @@ var option;
 
 myChart.showLoading();
 
-jQuery.getJSON('data/data_1_1.json',function (graph){
+jQuery.getJSON('data/data_1_2.json',function (graph){
     myChart.hideLoading();
     var categories = [];
     graph.nodes.forEach(function (node) {
