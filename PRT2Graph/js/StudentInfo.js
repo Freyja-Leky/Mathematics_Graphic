@@ -128,10 +128,10 @@ selectTask.change(function () {
     selectStudent[0].selectedIndex = -1;
 })
 
-btnRefresh.click(function (){
+selectStudent.change(function (){
     subject = $("#subjectID option:selected").val();
     task = $("#taskID option:selected").val();
-    let student = $("#studentID option:selected").val();
+    let student = $(this).val();
 
     clearSN();
     clearPC();

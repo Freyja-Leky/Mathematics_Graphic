@@ -382,8 +382,8 @@ function visGraphData(subject,task,student) {
                 edge_count++;
                 last_node = new_node;
             }
+            break;
         }
-        break;
     }
 
     var data = {

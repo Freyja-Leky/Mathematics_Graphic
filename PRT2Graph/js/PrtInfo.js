@@ -85,10 +85,10 @@ btnGlobal.click(function () {
 
     })
 
-btnRefresh.click(function (){
+selectPRT.change(function (){
     var subject = $("#subjectID option:selected").val();
     var task = $("#taskID option:selected").val();
-    var prt = $("#prtID option:selected").val();
+    var prt = $(this).val();
 
     btnPart.removeClass("active");
     btnGlobal.removeClass("active");
